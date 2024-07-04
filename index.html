@@ -20,7 +20,8 @@
             <div class="container-fluid h-navbar border border-bottom-1 py-3">
                 <div class="row align-items-center bg-white">
                     <div class="col-auto">
-                        <a href="#"><img src="assets/img/mobile-logo.png" alt="Boolean" id="mobile-logo"></a>
+                        <a href="#"><img src="assets/img/mobile-logo.png" alt="Boolean" id="mobile-logo" class="d-lg-none"></a>
+                        <a href="#"><img src="assets/img/logo.svg" alt="Booelean" id="desktop-logo" class="d-none d-lg-inline-block"></a>
                     </div>
                     <div class="col">
                         <div class="input-group mb-0">
@@ -48,6 +49,7 @@
         <main>
             <div class="container-fluid d-flex p-0">
 
+                <!-- Left Nav Bar -->
                 <aside class="w-aside sidebar-bg bg-primary-secondary text-center p-3 relative">
                     <div class="row flex-column">
                         <div class="col-auto">
@@ -61,11 +63,14 @@
                     </div>
                 </aside>
 
+                <!-- Big Web Application Section -->
                 <div class="application-width">
 
-                    <div class="row bg-primary p-0 m-0 align-items-center">
+                    <!-- Blue Section -->
+                    <div class="row bg-primary p-0 py-3 m-0 align-items-center flex-column-reverse flex-md-row">
 
-                        <div class="col-5">
+                        <!-- Boolean Badges -->
+                        <div class="col-12 col-md-5 col-lg-6 py-2">
                             <div class="title-n-badge d-flex align-items-center pt-3">
                                 <h3 class="text-white">Boolean</h3>
                                 <span class="badge badge-bg-primary mx-2 pb-2 rounded-4 cursor-pointer">Piano blaze</span>
@@ -80,12 +85,14 @@
                             </div>
                         </div>
 
-                        <div class="col-4 ps-0">
+                        <!-- Students Counter -->
+                        <div class="col-12 col-md-4 col-lg-3 py-2">
                             <p class="text-white m-0">Studenti online negli ultimi 30 minuti</p>
                             <h3 class="text-white fs-2">125</h2>
                         </div>
 
-                        <div class="col-3 ps-0 d-flex">
+                        <!-- Function Add Student -->
+                        <div class="col-12 col-md-3 d-flex py-2">
                             <p class="text-white m-0 fw-semibold as-vertical-align-middle">Nuovo Studente</p>
                             <button type="button" class="btn btn-outline-light fs-5 mx-3"><i class="fa-solid fa-plus"></i></button>
                         </div>
