@@ -51,6 +51,10 @@ div.icon.cursor-pointer:hover {
 .badge-bg-primary {
     background-color: #165BBA;
 }
+
+.as-vertical-align-middle {
+    line-height:250%;
+}
 /* Responsive */
 
 @media screen and (min-width:992px) {
@@ -59,4 +63,7 @@ div.icon.cursor-pointer:hover {
     }
 }
 
+* {
+    /* outline:1px solid red; */
+}
 
