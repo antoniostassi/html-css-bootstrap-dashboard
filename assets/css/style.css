@@ -4,6 +4,10 @@
     --aside-bar-width:75px;
 }
 
+main {
+    overflow:hidden;
+}
+
 header {
     background-color: #F8F9FA;
 }
@@ -33,6 +37,16 @@ header {
     cursor:pointer;
 }
 
+.edit-btn:hover,
+.delete-btn:hover {
+    background-color:#165BBA;
+}
+
+.edit-btn:hover > i,
+.delete-btn:hover > i {
+    color:white;
+}
+
 div.icon.cursor-pointer:hover {
     background-color:#839099;
 }
@@ -52,8 +66,16 @@ div.icon.cursor-pointer:hover {
     background-color: #165BBA;
 }
 
+.bg-card-title {
+    background-color: #F7F7F7;
+}
+
 .as-vertical-align-middle {
     line-height:250%;
+}
+
+.classe-avatar-width {
+    width:30px;
 }
 /* Responsive */
 
