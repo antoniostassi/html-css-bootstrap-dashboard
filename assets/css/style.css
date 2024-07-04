@@ -4,10 +4,6 @@
     --aside-bar-width:75px;
 }
 
-main {
-    overflow:hidden;
-}
-
 header {
     background-color: #F8F9FA;
 }
@@ -62,6 +58,7 @@ div.icon.cursor-pointer:hover {
 }
 
 .application-width {
+    height:calc(100vh - var(--navbar-header-height));
     width:calc(100vw - var(--aside-bar-width));
 }
 
