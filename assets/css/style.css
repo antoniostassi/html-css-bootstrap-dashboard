@@ -1,0 +1,20 @@
+
+.h-70px {
+    height:80px;
+}
+
+#mobile-logo {
+    width:40px;
+}
+
+.bg-search-bar {
+    background-color: #E5E5E5;
+}
+
+.notific-icon-color {
+    color:#FF8F00;
+}
+
+.cursor-pointer:hover {
+    cursor:pointer;
+}
