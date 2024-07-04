@@ -25,6 +25,9 @@ header {
     width:50px;
 }
 
+#desktop-logo {
+    width:250px;
+}
 .bg-search-bar {
     background-color: #E5E5E5;
 }
@@ -77,6 +80,16 @@ div.icon.cursor-pointer:hover {
 .classe-avatar-width {
     width:30px;
 }
+
+.text-bg-avv {
+    background-color:#6F2CF4;
+}
+
+.table > thead > tr > th:not(:first-child),
+.table > tbody > tr > td {
+    text-align:center;
+}
+
 /* Responsive */
 
 @media screen and (min-width:992px) {
