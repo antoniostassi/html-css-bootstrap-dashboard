@@ -1,7 +1,7 @@
 
 :root {
     --navbar-header-height:80px;
-    --aside-bar-width:85px;
+    --aside-bar-width:75px;
 }
 
 header {
@@ -33,9 +33,23 @@ header {
     cursor:pointer;
 }
 
+div.icon.cursor-pointer:hover {
+    background-color:#839099;
+}
+
 .sidebar-bg {
     background-image:url("../img/sidebar-bg.png");
     background-size: cover;
     background-position: center;
     background-color: #051E34;
 }
+
+/* Responsive */
+
+@media screen and (min-width:992px){
+    :root {
+        --aside-bar-width:140px;
+    }
+}
+
+
