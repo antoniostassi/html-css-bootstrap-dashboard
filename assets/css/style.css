@@ -48,6 +48,9 @@ div.icon.cursor-pointer:hover {
     width:calc(100vw - var(--aside-bar-width));
 }
 
+.badge-bg-primary {
+    background-color: #165BBA;
+}
 /* Responsive */
 
 @media screen and (min-width:992px) {
