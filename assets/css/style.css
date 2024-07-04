@@ -4,6 +4,7 @@
     --aside-bar-width:75px;
 }
 
+
 header {
     background-color: #F8F9FA;
 }
@@ -33,7 +34,7 @@ header {
 }
 
 .cursor-pointer:hover {
-    cursor:pointer;
+    cursor: url(../img/cursor.png), auto;
 }
 
 .edit-btn:hover,
