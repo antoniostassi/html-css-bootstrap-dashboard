@@ -44,9 +44,13 @@ div.icon.cursor-pointer:hover {
     background-color: #051E34;
 }
 
+.application-width {
+    width:calc(100vw - var(--aside-bar-width));
+}
+
 /* Responsive */
 
-@media screen and (min-width:992px){
+@media screen and (min-width:992px) {
     :root {
         --aside-bar-width:140px;
     }
