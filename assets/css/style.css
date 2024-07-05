@@ -60,11 +60,7 @@ div.icon.cursor-pointer:hover {
 
 .application-width {
     height:calc(100vh - var(--navbar-header-height));
-    width:calc(100vw - var(--aside-bar-width));
-}
-
-.badge-bg-primary {
-    background-color: #165BBA;
+    width:calc(100% - var(--aside-bar-width));
 }
 
 .bg-card-title {
