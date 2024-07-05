@@ -39,7 +39,7 @@ header {
 
 .edit-btn:hover,
 .delete-btn:hover {
-    background-color:#165BBA;
+    background-color:#DC3545;
 }
 
 .edit-btn:hover > i,
