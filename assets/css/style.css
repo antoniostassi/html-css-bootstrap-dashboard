@@ -84,6 +84,20 @@ div.icon.cursor-pointer:hover {
     text-align:center;
 }
 
+.badge > img {
+    width:15px;
+    margin:0 2px;
+}
+
+.bill-propic {
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-image:url("https://i.pinimg.com/474x/35/77/5c/35775c54359835bb116ad2c169791676.jpg");
+    background-size:cover;
+    background-position:top;
+}
+
 /* Responsive */
 
 @media screen and (min-width:992px) {
