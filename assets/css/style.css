@@ -112,6 +112,10 @@ ul {
     :root {
         --aside-bar-width:140px;
     }
+
+    .w-lg-45 {
+        width:45% !important;
+    }
 }
 
 * {
