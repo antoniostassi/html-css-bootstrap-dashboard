@@ -34,7 +34,7 @@ header {
 }
 
 .cursor-pointer:hover {
-    cursor: url(../img/cursor.png), auto;
+    cursor:pointer;
 }
 
 .edit-btn:hover,
