@@ -15,7 +15,7 @@ header {
 
 .w-aside {
     width:var(--aside-bar-width);
-    height: calc(100vh - var(--navbar-header-height));
+    height: calc(100dvh - var(--navbar-header-height));
 }
 
 #mobile-logo {
@@ -59,7 +59,7 @@ div.icon.cursor-pointer:hover {
 }
 
 .application-width {
-    height:calc(100vh - var(--navbar-header-height));
+    height:calc(100dvh - var(--navbar-header-height));
     width:calc(100% - var(--aside-bar-width));
 }
 
